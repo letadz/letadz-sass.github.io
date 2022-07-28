@@ -1,0 +1,92 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(90deg, #85FFBD 0%, #FFFB7D 100%);
+  border: 2px dashed black;
+  height: 15vh;
+  margin: 20px;
+}
+.container-header .logo {
+  max-width: 80px;
+  width: 100%;
+  margin: 100px;
+}
+.container-header nav {
+  display: flex;
+  align-self: flex-end;
+  margin: 30px 100px;
+}
+.container-header nav ul {
+  list-style: none;
+}
+.container-header nav li {
+  display: inline-block;
+}
+.container-header nav a {
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+}
+.container-header nav a:hover, .container-header nav a.active {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container-items {
+  display: flex;
+  height: 61.5vh;
+  margin: 20px;
+  gap: 20px;
+}
+.container-items .left-item {
+  height: 100%;
+  width: 65%;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  border: 2px dotted #886100;
+}
+.container-items .left-item h1 {
+  text-align: center;
+  padding: 250px 0;
+}
+.container-items .right-item {
+  height: 100%;
+  width: 35%;
+  background-image: linear-gradient(62deg, #61abe6 0%, #d5a7ff 100%);
+  border: 2px double #5b00af;
+}
+.container-items .right-item h1 {
+  text-align: center;
+  padding: 250px 0;
+}
+
+.footer-item {
+  display: flex;
+  margin: 20px;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border: 2px solid #4bcddb;
+}
+.footer-item .item1 {
+  height: 15vh;
+  width: 45%;
+}
+.footer-item .item1 p {
+  padding: 65px;
+}
+.footer-item .item2 {
+  height: 15vh;
+  width: 55%;
+}
+.footer-item .item2 h1 {
+  padding: 55px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
